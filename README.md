@@ -1,28 +1,24 @@
-####################################################
-####											####
-####	SVN Remote Backup Manager (SVN RBM)		####
-####											####
-####################################################
 
-Name :- SVN Remote Backup Manager
-Version :- 1.0.0
-Author :- Amit Kumar Mishra
+**`##################################################`** 
+#### **`###`	SVN Remote Backup Manager (SVN RBM)	`###`** 
+**`##################################################`** 
 
-System requirements :- 
-===================
-OS :- Ubuntu 14.04
-Application :- Subversion 1.7 or later
-Tools :- Bash shell, Sed, Awk, cut
+**Name    :-** SVN Remote Backup Manager
+**Version :-** 1.0.0
+**Author  :-** Amit Kumar Mishra
 
-Install, uninstall, configuration, and operating instructions :-
-=============================================================
-Insall :- 
-	1. Create folder called ".backup" in your home folder directory.
-	2. Copy all files which is in following files list into create directory ".backup"
+ **`System requirements :-`** 
+1. OS :- Ubuntu 14.04
+2. Application :- Subversion 1.7 or later
+3. Tools :- Bash shell, Sed, Awk, cut
+
+
+**`Install, uninstall, configuration, and operating instructions :-`** 
+	1. Create folder called '.backup' in your home folder directory.
+	2. Copy all files which is in following files list into create directory '.backup'
 	3. 
 
-Files list :-
-==========
+**`Files list :-`**
 1. svnrbm.sh :- Main script which controls all scrips.
 2. fullsvnbackup.sh :- Full backup script.
 3. incrementalsvnbackup.sh :- Daily incremental script
